@@ -4,6 +4,9 @@ import sr.unasat.libraryapp.dao.BookDAO;
 import sr.unasat.libraryapp.entities.Book;
 import sr.unasat.libraryapp.service.BookService;
 
+import java.util.HashSet;
+import java.util.Set;
+
 public class EBook extends OnlineBookDecorator implements OnlineBook{
 
     BookService bookService = new BookService();

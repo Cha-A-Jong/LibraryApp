@@ -12,7 +12,6 @@ public class DummyDataService {
 
         //create book
 
-        Set<Book> bookSet = new HashSet<>();
         BookService bookService = new BookService();
         Book book1 = new Book();
         Book book2 = new Book();
@@ -39,12 +38,6 @@ public class DummyDataService {
         book5.setIsbn("9798622644122");
         book5.setTitle("Sweet temptation");
         bookService.insertBook(book5);
-
-        bookSet.add(book1);
-        bookSet.add(book2);
-        bookSet.add(book3);
-        bookSet.add(book4);
-        bookSet.add(book5);
 
         //create genre
         GenreService genreService = new GenreService();
