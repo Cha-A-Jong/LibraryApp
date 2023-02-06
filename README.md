@@ -8,3 +8,5 @@ Before running the application select the Java class persistence.xml (src/META-I
 Example: <property name="hibernate.hbm2ddl.auto" value="create-drop" />
 
 In the main you can run the application on different command lines after removing the // lines.
+First create the dummydata and after performing this action you can perform different commands.
+
